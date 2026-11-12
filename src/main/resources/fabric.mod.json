@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "schachmod",
+  "version": "${version}",
+  "name": "Schach",
+  "description": "Ein Schachbrett aus Bloecken. Zwei Spieler ziehen die Figuren per Rechtsklick oder Befehl. Keine Regelpruefung.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.schachmod.ChessMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
